@@ -1,10 +1,66 @@
-<!-- index.html -->
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <title>Task App</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="ToDo_List.css">
 </head>
 <body>
-  <h1>Welcome to Task App</h1>
+    <section id="menu_bar">
+        <div class="bar">
+            <nav>
+                <h1>To-Doist</h1>
+                <ul>
+                    <a href="#today"><li>Today</li></a>
+                    <a href="#upcoming"><li>Upcoming</li></a>
+                    <a href="#calendar"><li>Calendar</li></a>
+                    <a href="#sticky_wall"><li>Sticky Wall</li></a>
+                    <a href="#completed"><li>Completed</li></a>
+                    <a href="#tags"><li>Tags</li></a>
+                </ul>
+            </nav>
+        </div>
+    </section>
+    <section id="today_tab_name">
+        <div class="bar">
+            <h2>Goodmorning, Pristitia!</h2>
+            <p class="bio">What do you plan to do today ?</p>
+        </div>
+    </section>
+    <section id="task_bar">
+        <div class="bar">
+            <h2>Task:</h2>
+            <p class="content">Research content ideas</p>
+            <p class="content">Description: </p>
+            <p class="content">Due date: Today</p>
+            <p class="content">Tags</p>
+            <h2>Subtasks:</h2>
+            <p class="content">Add New Subtask</p>
+            <button class="delete_task">Delete Task</button>
+            <button class="save_changes">Save changes</button>
+        </div>
+    </section>
+    <section id="task_list">
+        <div class="bar">
+            <div class="content">
+                <div class="card">
+                    <p>Add New Task</p>
+                </div>
+                <div class="card">
+                    <p>Research content ideas</p>
+                </div>
+                <div class="card">
+                    <p>Research marketing ideas</p>
+                </div>
+                <div class="card">
+                    <p>Research content ideas</p>
+                </div>
+                <div class="card">
+                    <p>Research marketing ideas</p>
+                </div>
+            </div>
+        </div>
+    </section>
 </body>
 </html>
